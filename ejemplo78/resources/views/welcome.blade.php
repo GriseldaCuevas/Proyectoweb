@@ -12,7 +12,7 @@
 
             body {
                 margin: 0;
-                padding: 0;
+                padding: 0.5;
                 width: 100%;
                 color: #B0BEC5;
                 display: table;
