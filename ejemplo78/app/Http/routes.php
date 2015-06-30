@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return 'willkomen, ich hazze jose luis :)';
+    return view('welcome');
 });

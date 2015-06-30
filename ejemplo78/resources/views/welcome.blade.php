@@ -14,11 +14,8 @@
                 margin: 0;
                 padding: 0.5;
                 width: 100%;
-<<<<<<< HEAD
                 color: red;
-=======
                 color: #F6CEF5;
->>>>>>> de2fd29720f9c1dba2fe0d2b6e51516d6502c86f
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
