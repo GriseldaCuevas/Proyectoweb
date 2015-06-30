@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'Fuckkk youuuuuuuuu .l.!!!!<br/><br/>chiquillamividamiamorscosiwisiloviubeibi:*!!!!!!!!!';
 });
