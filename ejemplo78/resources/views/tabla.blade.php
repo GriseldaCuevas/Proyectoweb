@@ -18,6 +18,7 @@
 	     <span class="cell" data-label="Grupo">Centro</span>
 	     <span class="cell" data-label="Hora">1-4</span>
 	  </div>
+	  <div class="panel-footer"><small>Eaborado por Gallardo Yovana, Alaniz Alejandra, El cholito y el josé &copy;2015</small></div>
 	@endforeach
 </div>
 @stop
