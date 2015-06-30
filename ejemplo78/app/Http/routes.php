@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',"IndexController@index");
+Route::get('grupos/{id_materia}', "IndexController@gruposMateria");
+Route::get('pdf/{id_grupo}', "IndexController@getGrupo");
+
+
+
+
+
