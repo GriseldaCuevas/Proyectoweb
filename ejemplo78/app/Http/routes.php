@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return 'Fuckkk youuuuuuuuu .l.!!!!<br/><br/>chiquillamividamiamorscosiwisiloviubeibi:*!!!!!!!!!';
+    return 'willkomen, ich hazze jose luis :)';
 });
