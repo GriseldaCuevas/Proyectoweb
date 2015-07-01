@@ -18,20 +18,27 @@ class IndexController extends Controller
      */
     public function index()
     {
+
+        $titulo = 'Bienvenido | IT CUliacan';
         $materias=Materia::getAll();
-        return view("index",compact("materias"));
+        return view("index",compact("materias", 'titulo'));
     }
     public function gruposMateria($id_materia)
     {
         $materias=Materia::getAll();
+        $titulo = Materia::getMateria($id_materia)->nombre;
         $grupos=Grupo::getGrupos($id_materia);
-        return view("templates.tabla", compact("grupos","materias"));
+        return view("templates.tabla", compact("grupos","materias", 'titulo'));
     }
     public function getGrupo($id_grupo)
     {
         $grupo=Grupo::getGrupo($id_grupo);
         $alumnos=Alumno::getAlumnosGrupo($id_grupo);
-        $vista=view("templates.pdf", compact("grupo","alumnos"));
+        $total = Alumno::getTotalAlumnosGrupo($id_grupo);
+        $vista = view('templates.pdf', compact('grupo', 'alumnos', 'total'));
+        $dompdf = \App::make('dompdf.wrapper');
+        $dompdf->loadHTML($vista);
+        return $dompdf->stream();
     }
 
 }
