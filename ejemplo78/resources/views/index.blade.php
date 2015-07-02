@@ -33,7 +33,7 @@
 				@yield('contenido')
 			</section>
 			<section id="sur">
-				<div id="foot" class="panel-footer"><small>Eaborado por Gallardo Yovana, Alaniz Alejandra, El cholito y el josé &copy;2015</small></div>
+				<div id="foot" class="panel-footer"><small>Eaborado por Gallardo Yovana, Alaniz Alejandra, El cholito, El Pedro y el josé &copy;2015</small></div>
 			</section>
 		</section>
 		<script src="http://localhost:8000/bootstrap/js/bootstrap.min.js"></script>

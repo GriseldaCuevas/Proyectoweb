@@ -1,0 +1,24 @@
+<?php $__env->startSection('contenido'); ?>
+<div class="caption tope-tabla">Horario</div>	
+<div id="table">
+	<div class="header-row row">
+    <span class="cell primary">Materia</span>
+    <span class="cell">Maestro</span>
+     <span class="cell">Grupo</span>
+    <span class="cell">Hora</span>
+    <span class="cell">PDF's</span>
+  </div>
+
+  	<?php foreach($grupos as $grupo): ?>
+	  <div class="row">
+		<input type="radio" name="expand">
+	    <span class="cell primary" data-label="Materia"><?php echo e($grupo->nombre); ?></span>
+	    <span class="cell" data-label="Maestro"><?php echo e($grupo->nombres); ?> <?php echo e($grupo->apellidos); ?></span>
+	     <span class="cell" data-label="Grupo"><?php echo e($grupo->id); ?></span>
+	     <span class="cell" data-label="Hora"><?php echo e($grupo->horario); ?></span>
+	     <span class="cell" data-label="PDF's"><a href="http://localhost:8000/pdf/<?php echo e($grupo->id); ?>"><img src="http://localhost:8000/img/pdf.gif"></img></a></span>
+	  </div>
+	<?php endforeach; ?>
+</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,152 @@
+body
+{
+	background: #CEECF5;
+	margin: 0 auto;
+	max-width: 1063px;
+}
+
+header
+{
+	background: #CEECF5;
+
+}
+header nav
+{
+	background: #819FF7;
+	border-radius: 5px;
+	padding: 10px;
+
+
+
+}
+
+header nav ul li
+{
+	color: white;	
+	display: inline-block;
+	font-size: 1.3em;
+	margin: 0px 15px 0px 0px;
+}
+
+header nav ul li:hover
+{
+	background: rgba(0,0,100,1);
+}
+
+.botonesheader
+{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+
+}
+
+.botonesheader button
+{
+	background: green;
+	border:0px;
+	border-radius: 5px;
+	color: white;
+	padding: 3px 8px;
+}
+
+.botonesheader input
+{
+	border-radius: 5px;
+	height: 25px;
+}
+
+.fotoprincipal
+{
+	background: #CEECF5;
+	margin-top: 10px;
+}
+
+.fotoprincipal img
+{
+	width: 1063px;
+}
+
+.flamita
+{
+	margin-top: -130px;
+}
+
+.tresarticulos
+{
+	background: lightseagreen;
+	margin-top: 5px;
+}
+
+.tresarticulos article
+{
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+	width: 30%;
+}
+ 
+.tresarticulos button
+{
+	color: blue;
+}
+
+.tresarticulos div
+{
+	background: lightseagreen;
+}
+.tresarticulos .titulo01
+{
+	font-size: 60;
+	font-weight: bold;
+}
+
+.tresarticulos .titulo02
+{
+	font-size: 40;
+	font-weight: bold;
+}
+.video-tres
+	{
+		display: inline-block;
+		text-align: center;
+	}
+.video-tres
+{
+	background: lightseagreen;
+	margin-top: 5px;
+}
+.videos-tres article
+{
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+	width: 30%;
+}
+
+.tresarticulos ul {
+    margin-bottom: 14px;
+    list-style: none;
+}
+ .tresarticulos ul li { width: 300px; height: 30px;  margin: 0 0 7px 0; }
+.tresarticulos ul li a { 
+    display: block;
+    margin: 10px 0 7px 0;
+    
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    font-size: 18px;
+    color: white;
+    padding: 5px 0 0 20px;
+    text-decoration: none;
+}
+
+
+.orange { background-color: #F5876E; }
+
+.blue{ background-color: #62A9DC; }
+
+.green{ background-color: #8EBD40; }
+
+.purple { background-color: #988CC3; }
+
